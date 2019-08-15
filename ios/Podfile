@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 
-target 'EmbeddedReactNative' do
+abstract_target 'EmbeddedReactNativeAbstract' do
   pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
     :tag => "ios/2.12.4",
@@ -98,5 +98,11 @@ target 'EmbeddedReactNative' do
       end
 
     end
+  end
+
+  target 'EmbeddedReactNative' do
+  end
+
+  target 'EmbeddedReactNativeKit' do
   end
 end

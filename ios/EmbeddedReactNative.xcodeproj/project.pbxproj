@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25EB7FC623057B7800FF063F /* EmbeddedReactNativeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EB7FC423057B7800FF063F /* EmbeddedReactNativeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66C5189D9EA733EEF767F4E1 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2A6CD6CCF81CDA74C27F40 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNative.a */; };
 		B501732B1DC01252003445D9 /* EXShell.plist in Resources */ = {isa = PBXBuildFile; fileRef = B501732A1DC01252003445D9 /* EXShell.plist */; };
 		B56386491DB9693800A0598C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56386481DB9693800A0598C /* AppDelegate.m */; };
 		B56386511DB9693800A0598C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56386501DB9693800A0598C /* Assets.xcassets */; };
@@ -18,14 +20,20 @@
 		B5CFBF4F1EDE419400B4BE24 /* EXBuildConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5CFBF4E1EDE419400B4BE24 /* EXBuildConstants.plist */; };
 		B5DB04801F3A684600E91581 /* shell-app-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B5DB047E1F3A684600E91581 /* shell-app-manifest.json */; };
 		B5DB04811F3A684600E91581 /* shell-app.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5DB047F1F3A684600E91581 /* shell-app.bundle */; };
-		EBB8117C1BFA0514F79CAF74 /* libPods-EmbeddedReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A88D15726AD99E8A257BC7 /* libPods-EmbeddedReactNative.a */; };
+		EB281B2B5EF45C9B8962A7A8 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C01FA4B3D5888D391720A156 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25EB7FC223057B7700FF063F /* EmbeddedReactNativeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmbeddedReactNativeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EB7FC423057B7800FF063F /* EmbeddedReactNativeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedReactNativeKit.h; sourceTree = "<group>"; };
+		25EB7FC523057B7800FF063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C1548D9E4CB1AEFA5CCAE6D /* Pods-EmbeddedReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedReactNative/Pods-EmbeddedReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2A6CD6CCF81CDA74C27F40 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmbeddedReactNativeAbstract-EmbeddedReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6051AFAB1123955704B403B6 /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.release.xcconfig"; sourceTree = "<group>"; };
 		A47FE4D7F70906B7DC8CE39B /* Pods-EmbeddedReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedReactNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedReactNative/Pods-EmbeddedReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		A9FCE8A477A36A54C19B726A /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.debug.xcconfig"; sourceTree = "<group>"; };
 		B501732A1DC01252003445D9 /* EXShell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EXShell.plist; sourceTree = "<group>"; };
-		B56386411DB9693800A0598C /* EmbeddedReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmbeddedReactNative.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56386411DB9693800A0598C /* EmbeddedReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56386471DB9693800A0598C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B56386481DB9693800A0598C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B56386501DB9693800A0598C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,15 +46,25 @@
 		B5CFBF4E1EDE419400B4BE24 /* EXBuildConstants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EXBuildConstants.plist; sourceTree = "<group>"; };
 		B5DB047E1F3A684600E91581 /* shell-app-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "shell-app-manifest.json"; sourceTree = "<group>"; };
 		B5DB047F1F3A684600E91581 /* shell-app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shell-app.bundle"; sourceTree = "<group>"; };
-		C4A88D15726AD99E8A257BC7 /* libPods-EmbeddedReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmbeddedReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01FA4B3D5888D391720A156 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC34D7F2671EA76F2FC9BAFE /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC04B069E05351E12BFD7EA /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25EB7FBF23057B7700FF063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB281B2B5EF45C9B8962A7A8 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B563863E1DB9693800A0598C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB8117C1BFA0514F79CAF74 /* libPods-EmbeddedReactNative.a in Frameworks */,
+				66C5189D9EA733EEF767F4E1 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +74,19 @@
 		1A42804E64B7E9E0AB8B6799 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C4A88D15726AD99E8A257BC7 /* libPods-EmbeddedReactNative.a */,
+				2F2A6CD6CCF81CDA74C27F40 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNative.a */,
+				C01FA4B3D5888D391720A156 /* libPods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25EB7FC323057B7800FF063F /* EmbeddedReactNativeKit */ = {
+			isa = PBXGroup;
+			children = (
+				25EB7FC423057B7800FF063F /* EmbeddedReactNativeKit.h */,
+				25EB7FC523057B7800FF063F /* Info.plist */,
+			);
+			path = EmbeddedReactNativeKit;
 			sourceTree = "<group>";
 		};
 		5B29BC350A332C58878A9F13 /* Pods */ = {
@@ -66,6 +94,10 @@
 			children = (
 				2C1548D9E4CB1AEFA5CCAE6D /* Pods-EmbeddedReactNative.debug.xcconfig */,
 				A47FE4D7F70906B7DC8CE39B /* Pods-EmbeddedReactNative.release.xcconfig */,
+				A9FCE8A477A36A54C19B726A /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.debug.xcconfig */,
+				6051AFAB1123955704B403B6 /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.release.xcconfig */,
+				DC34D7F2671EA76F2FC9BAFE /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.debug.xcconfig */,
+				EFC04B069E05351E12BFD7EA /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -74,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B56386431DB9693800A0598C /* EmbeddedReactNative */,
+				25EB7FC323057B7800FF063F /* EmbeddedReactNativeKit */,
 				B56386421DB9693800A0598C /* Products */,
 				5B29BC350A332C58878A9F13 /* Pods */,
 				1A42804E64B7E9E0AB8B6799 /* Frameworks */,
@@ -84,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				B56386411DB9693800A0598C /* EmbeddedReactNative.app */,
+				25EB7FC223057B7700FF063F /* EmbeddedReactNativeKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +130,7 @@
 				B56386501DB9693800A0598C /* Assets.xcassets */,
 				B563865B1DB96A5E00A0598C /* Supporting */,
 			);
-			path = "EmbeddedReactNative";
+			path = EmbeddedReactNative;
 			sourceTree = "<group>";
 		};
 		B563865B1DB96A5E00A0598C /* Supporting */ = {
@@ -118,7 +152,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		25EB7FBD23057B7700FF063F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB7FC623057B7800FF063F /* EmbeddedReactNativeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		25EB7FC123057B7700FF063F /* EmbeddedReactNativeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EB7FC923057B7800FF063F /* Build configuration list for PBXNativeTarget "EmbeddedReactNativeKit" */;
+			buildPhases = (
+				47B040E3E85E2E60DA07B6EE /* [CP] Check Pods Manifest.lock */,
+				25EB7FBD23057B7700FF063F /* Headers */,
+				25EB7FBE23057B7700FF063F /* Sources */,
+				25EB7FBF23057B7700FF063F /* Frameworks */,
+				25EB7FC023057B7700FF063F /* Resources */,
+				BA2CCD2C88F84A7080818181 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmbeddedReactNativeKit;
+			productName = EmbeddedReactNativeKit;
+			productReference = 25EB7FC223057B7700FF063F /* EmbeddedReactNativeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B56386401DB9693800A0598C /* EmbeddedReactNative */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56386581DB9693800A0598C /* Build configuration list for PBXNativeTarget "EmbeddedReactNative" */;
@@ -128,7 +193,6 @@
 				B563863D1DB9693800A0598C /* Sources */,
 				B563863E1DB9693800A0598C /* Frameworks */,
 				B563863F1DB9693800A0598C /* Resources */,
-				8D34C7FE3D99F20E5EA1B18A /* [CP] Embed Pods Frameworks */,
 				AA38385B7D8D0854176B72FC /* [CP] Copy Pods Resources */,
 				19D233B7204FDD7D0087ED51 /* Bundle Expo Assets */,
 			);
@@ -136,8 +200,8 @@
 			);
 			dependencies = (
 			);
-			name = "EmbeddedReactNative";
-			productName = "EmbeddedReactNative";
+			name = EmbeddedReactNative;
+			productName = EmbeddedReactNative;
 			productReference = B56386411DB9693800A0598C /* EmbeddedReactNative.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -150,6 +214,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "650 Industries, Inc.";
 				TargetAttributes = {
+					25EB7FC123057B7700FF063F = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					B56386401DB9693800A0598C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = C8D8QTF339;
@@ -162,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -171,11 +240,19 @@
 			projectRoot = "";
 			targets = (
 				B56386401DB9693800A0598C /* EmbeddedReactNative */,
+				25EB7FC123057B7700FF063F /* EmbeddedReactNativeKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		25EB7FC023057B7700FF063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B563863F1DB9693800A0598C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,28 +292,38 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D34C7FE3D99F20E5EA1B18A /* [CP] Embed Pods Frameworks */ = {
+		47B040E3E85E2E60DA07B6EE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmbeddedReactNative/Pods-EmbeddedReactNative-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA38385B7D8D0854176B72FC /* [CP] Copy Pods Resources */ = {
@@ -245,13 +332,28 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative-resources.sh",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/api.amplitude.com.der",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/ComodoCaLimitedRsaCertificationAuthority.der",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/ComodoRsaCA.der",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/ComodoRsaDomainValidationCA.der",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/api.amplitude.com.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoCaLimitedRsaCertificationAuthority.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaCA.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaDomainValidationCA.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmbeddedReactNative/Pods-EmbeddedReactNative-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5722AD01DFB7E3F0084848F /* Prepare Expo */ = {
@@ -268,9 +370,46 @@
 			shellPath = /bin/bash;
 			shellScript = "set -eo pipefail\n\nexport PATH=\"$(if [ -f ~/.expo/PATH ]; then echo $PATH:$(cat ~/.expo/PATH); else echo $PATH; fi)\"\nexpo prepare-detached-build --platform ios \"${SRCROOT}/..\"\n";
 		};
+		BA2CCD2C88F84A7080818181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit-resources.sh",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/api.amplitude.com.der",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/ComodoCaLimitedRsaCertificationAuthority.der",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/ComodoRsaCA.der",
+				"${PODS_ROOT}/Amplitude-iOS/Amplitude/ComodoRsaDomainValidationCA.der",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/api.amplitude.com.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoCaLimitedRsaCertificationAuthority.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaCA.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ComodoRsaDomainValidationCA.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit/Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		25EB7FBE23057B7700FF063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B563863D1DB9693800A0598C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +422,71 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		25EB7FC723057B7800FF063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC34D7F2671EA76F2FC9BAFE /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EmbeddedReactNativeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = host.exp.ExponentKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25EB7FC823057B7800FF063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC04B069E05351E12BFD7EA /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNativeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EmbeddedReactNativeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = host.exp.ExponentKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B56386561DB9693800A0598C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -387,13 +591,13 @@
 		};
 		B56386591DB9693800A0598C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C1548D9E4CB1AEFA5CCAE6D /* Pods-EmbeddedReactNative.debug.xcconfig */;
+			baseConfigurationReference = A9FCE8A477A36A54C19B726A /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C8D8QTF339;
 				INFOPLIST_FILE = "$(SRCROOT)/EmbeddedReactNative/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "host.exp.Exponent";
+				PRODUCT_BUNDLE_IDENTIFIER = host.exp.Exponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,13 +605,13 @@
 		};
 		B563865A1DB9693800A0598C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A47FE4D7F70906B7DC8CE39B /* Pods-EmbeddedReactNative.release.xcconfig */;
+			baseConfigurationReference = 6051AFAB1123955704B403B6 /* Pods-EmbeddedReactNativeAbstract-EmbeddedReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C8D8QTF339;
 				INFOPLIST_FILE = "$(SRCROOT)/EmbeddedReactNative/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "host.exp.Exponent";
+				PRODUCT_BUNDLE_IDENTIFIER = host.exp.Exponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,6 +620,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25EB7FC923057B7800FF063F /* Build configuration list for PBXNativeTarget "EmbeddedReactNativeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB7FC723057B7800FF063F /* Debug */,
+				25EB7FC823057B7800FF063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B563863C1DB9693800A0598C /* Build configuration list for PBXProject "EmbeddedReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
